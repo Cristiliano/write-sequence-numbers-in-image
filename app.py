@@ -15,9 +15,9 @@ for word in words:
     else:
         str_word = str(word)
 
-    img = Image.open('images/281-340 PACTO DA ALIANÇA COM DEUS.png')
+    img = Image.open('images/great_background_img.jpg')
     draw = ImageDraw.Draw(img)
     fonte = ImageFont.truetype('fonts/ARLRDBD.TTF', 120)
-    draw.text((1620,900), str(str_word), font=fonte, fill='Yellow', stroke_width=8, stroke_fill='black')
-    img.save(f'images/img_{cont}.png')
+    draw.text((1020,540), str(str_word), font=fonte, fill='Yellow', stroke_width=8, stroke_fill='black')
+    img.save(f'images/img_{cont}.jpg')
     cont += 1
